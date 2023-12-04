@@ -17,7 +17,7 @@ questions = [
 ]
 
 first_option = [
-    "Dictionary",
+    "DICTIONARY",
     "/*...*/",
     "x == 5",
     ".py",
@@ -35,7 +35,7 @@ first_option = [
 ]
 
 second_option = [
-    "Tuple",
+    "TUPLE",
     "#",
     "x = 5",
     ".pt",
@@ -53,7 +53,7 @@ second_option = [
 ]
 
 third_option = [
-    "Set",
+    "SET",
     "//",
     "x = int(5);",
     ".pyth",
@@ -71,7 +71,7 @@ third_option = [
 ]
 
 fourth_option = [
-    "List",
+    "LIST",
     "/",
     "int x = 5;",
     ".pyt",
@@ -88,5 +88,5 @@ fourth_option = [
     "my-var"
 ]
 
-correct_answers = ["List", "#", "x = 5", ".py", "if x > y:", "while x > y:", "strip()",
+correct_answers = ["LIST", "#", "x = 5", ".py", "if x > y:", "while x > y:", "strip()",
                    "upper()", "replace()", "for x in y:", "break", "*", "==", "Set", "my-var"]

@@ -35,7 +35,7 @@ def login():
                        message="Invalid Username and password")
 
 
-label = ctk.CTkLabel(app, text="Welcome, This is Login System Page")
+label = ctk.CTkLabel(app, text="Welcome to Exam Management System")
 
 label.pack(pady=20)
 

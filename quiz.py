@@ -296,7 +296,7 @@ def select(event):
 
 root = Tk()
 root.geometry('1270x652+0+0')
-root.title('Code4U')
+root.title('Exam Management System')
 
 root.config(bg='black')
 
