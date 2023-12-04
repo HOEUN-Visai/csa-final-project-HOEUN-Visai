@@ -4,7 +4,6 @@ from tkinter.ttk import Progressbar
 from pygame import mixer
 import pyttsx3
 from login import *
-# import tkinter.messagebox as tkmb
 
 # voice option
 engine = pyttsx3.init()
@@ -439,9 +438,3 @@ optionButton4.bind('<Button-1>', select)
 
 root.mainloop()
 root.destroy()
-# if __name__ == "__main__":
-#     root = Tk()
-#     root.destroy()
-#     app = ctk.CTk()
-#     app.destroy()
-#     # login_app = login(root)

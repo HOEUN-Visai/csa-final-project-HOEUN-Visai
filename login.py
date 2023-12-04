@@ -1,13 +1,12 @@
 import customtkinter as ctk
 import tkinter.messagebox as tkmb
 from tkinter import *
-# from quiz import *
 
 
-# Selecting GUI theme - dark, light , system (for system default)
+# Selecting GUI theme
 ctk.set_appearance_mode("dark")
 
-# Selecting color theme - blue, green, dark-blue
+# Selecting color theme
 ctk.set_default_color_theme("blue")
 
 app = ctk.CTk()
@@ -36,7 +35,7 @@ def login():
                        message="Invalid Username and password")
 
 
-label = ctk.CTkLabel(app, text="Hell, this is Login Page")
+label = ctk.CTkLabel(app, text="Welcome, This is Login System Page")
 
 label.pack(pady=20)
 
@@ -44,7 +43,7 @@ label.pack(pady=20)
 frame = ctk.CTkFrame(master=app)
 frame.pack(pady=20, padx=40, fill='both', expand=True)
 
-label = ctk.CTkLabel(master=frame, text='Login System for User')
+label = ctk.CTkLabel(master=frame, text='Login to Start Code4U!')
 label.pack(pady=12, padx=10)
 
 
@@ -63,10 +62,3 @@ checkbox.pack(pady=12, padx=10)
 
 
 app.mainloop()
-
-
-# if __name__ == "__main__":
-#     root = Tk()
-#     root.destroy()
-#     app = ctk.CTk()
-#     app.destroy()
